@@ -1,13 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AsadSoft Admin</title>
+    <script src="https://kit.fontawesome.com/2722241275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <section class="sidebar">
+
+        <div class="sidebar-brand">
+            <h2><i class="fab fa-accusoft"></i> AsadSoft</h2>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="#" class="active"><i class="fas fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user"></i>
+                        <span>Customers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-clipboard-list"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-shopping-bag"></i>
+                        <span>Orders</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-receipt"></i>
+                        <span>Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-user-circle"></i>
+                        <span>Accounts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-clipboard-list"></i>
+                        <span>Tasks</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <header>
+            <div class="header-title">
+
+                <h2>
+                    <label for="">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    Dashboard
+                </h2>
+            </div>
+
+            <div class="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Search Here" />
+            </div>
+
+            <div class="user-wrapper">
+                <img src="img/asad.jpg" width="40px" height="40px" alt="">
+
+                <div>
+                    <h4>Md. Asaduzzaman</h4>
+                    <small>Supper Admin</small>
+                </div>
+            </div>
+
+
+        </header>
+
+        <main>
+
+            <div class="cards">
+
+                <div class="cards-single">
+
+                    <div>
+                        <h1>54</h1>
+                        <span>Customers</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-users"></i>
+                    </div>
+
+                </div>
+
+                <div class="cards-single">
+
+                    <div>
+                        <h1>75</h1>
+                        <span>Projects</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-clipboard"></i>
+                    </div>
+
+                </div>
+
+                <div class="cards-single">
+
+                    <div>
+                        <h1>124</h1>
+                        <span>Orders</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="cards-single">
+
+                    <div>
+                        <h1>$10K</h1>
+                        <span>Income</span>
+                    </div>
+                    <div>
+                        <i class="fa fa-google-wallet" aria-hidden="true"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="recent-grid">
+
+                <div class="projects">
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <h3>Recent Projects</h3>
+
+                            <button>See all <i class="fas fa-arrow-right"></i></button>
+                        </div>
+
+                        <div class="card-body">
+
+                            <table width="100%">
+                                <thead>
+                                    <tr>
+                                        <td>Project Title</td>
+                                        <td>Deparment</td>
+                                        <td>Status</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>UI/UX Design</td>
+                                        <td>UI Team</td>
+                                        <td>
+                                            <span class="status"></span>
+                                            review
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Frontend</td>
+                                        <td>
+                                            <span class="status"></span>
+                                            in progress
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ushop app</td>
+                                        <td>Mobile Team</td>
+                                        <td>
+                                            <span class="status"></span>
+                                            padding
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>UI/UX Design</td>
+                                        <td>UI Team</td>
+                                        <td>
+                                            <span class="status"></span>
+                                            review
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Frontend</td>
+                                        <td>
+                                            <span class="status"></span>
+                                            in progress
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ushop app</td>
+                                        <td>Mobile Team</td>
+                                        <td>
+                                            <span class="status"></span>
+                                            padding
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers">
+
+                    <div class="card">
+
+                        <div class="card-header">
+                            <h3>New Customer</h3>
+
+                            <button>See all <i class="fas fa-arrow-right"></i></button>
+                        </div>
+
+                        <div class="card-body">
+
+                            <div class="customer">
+                                <div>
+                                    <img src="img/asad.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Md. Asaduzzaman Nur</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="fas fa-comment"></i>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+
+                            </div>
+                            <div>
+                                <img src="img/asad.jpg" width="40px" height="40px" alt="">
+                                <div>
+                                    <h4>Md. Asaduzzaman Nur</h4>
+                                    <small>CEO Excerpt</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="fas fa-user-circle"></i>
+                                <i class="fas fa-comment"></i>
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <img src="img/asad.jpg" width="40px" height="40px" alt="">
+                                <div>
+                                    <h4>Md. Asaduzzaman Nur</h4>
+                                    <small>CEO Excerpt</small>
+                                </div>
+                            </div>
     
+                            <div>
+                                <i class="fas fa-user-circle"></i>
+                                <i class="fas fa-comment"></i>
+                                <i class="fas fa-phone"></i>
+                            </div>
+                        </div>
+                    </div> 
+                    
+                </div>
+
+            </div>
+
+        </main>
+
+    </section>
+
 </body>
+
 </html>
