@@ -282,6 +282,10 @@ tr td:last-child{
     align-items: center;
 }
 
+thead, tr{
+    border: 1px solid #f0f0f0;
+}
+
 .status.purple{
     background: rebeccapurple;
     margin-right: 5px;
