@@ -11,10 +11,12 @@
 </head>
 
 <body>
+
+    <input type="checkbox" id="nav-toggle">
     <section class="sidebar">
 
         <div class="sidebar-brand">
-            <h2><i class="fab fa-accusoft"></i> AsadSoft</h2>
+            <h2><i class="fab fa-accusoft"></i> <span>AsadSoft</span></h2>
         </div>
 
         <div class="sidebar-menu">
@@ -63,7 +65,7 @@
             <div class="header-title">
 
                 <h2>
-                    <label for="">
+                    <label for="nav-toggle">
                         <i class="fas fa-bars"></i>
                     </label>
                     Dashboard
@@ -156,65 +158,92 @@
 
                         <div class="card-body">
 
-                            <table width="100%">
-                                <thead>
-                                    <tr>
-                                        <td>Project Title</td>
-                                        <td>Deparment</td>
-                                        <td>Status</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>UI/UX Design</td>
-                                        <td>UI Team</td>
-                                        <td>
-                                            <span class="status"></span>
-                                            review
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Web Development</td>
-                                        <td>Frontend</td>
-                                        <td>
-                                            <span class="status"></span>
-                                            in progress
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ushop app</td>
-                                        <td>Mobile Team</td>
-                                        <td>
-                                            <span class="status"></span>
-                                            padding
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>UI/UX Design</td>
-                                        <td>UI Team</td>
-                                        <td>
-                                            <span class="status"></span>
-                                            review
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Web Development</td>
-                                        <td>Frontend</td>
-                                        <td>
-                                            <span class="status"></span>
-                                            in progress
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ushop app</td>
-                                        <td>Mobile Team</td>
-                                        <td>
-                                            <span class="status"></span>
-                                            padding
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-responsive">
+
+                                <table width="100%">
+                                    <thead>
+                                        <tr>
+                                            <td>Project Title</td>
+                                            <td>Deparment</td>
+                                            <td>Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop app</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                padding
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop app</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                padding
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>UI/UX Design</td>
+                                            <td>UI Team</td>
+                                            <td>
+                                                <span class="status purple"></span>
+                                                review
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Web Development</td>
+                                            <td>Frontend</td>
+                                            <td>
+                                                <span class="status pink"></span>
+                                                in progress
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ushop app</td>
+                                            <td>Mobile Team</td>
+                                            <td>
+                                                <span class="status orange"></span>
+                                                padding
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -232,53 +261,108 @@
                         <div class="card-body">
 
                             <div class="customer">
-                                <div>
+                                <div class="info">
                                     <img src="img/asad.jpg" width="40px" height="40px" alt="">
                                     <div>
-                                        <h4>Md. Asaduzzaman Nur</h4>
+                                        <h4>Asaduzzaman</h4>
                                         <small>CEO Excerpt</small>
                                     </div>
                                 </div>
 
-                                <div>
+                                <div class="contact">
                                     <i class="fas fa-user-circle"></i>
-                                    <i class="fas fa-comment"></i>
-                                    <i class="fas fa-phone"></i>
+                                    <i class="far fa-comment-dots"></i>
+                                    <i class="fas fa-phone-alt"></i>
                                 </div>
 
                             </div>
-                            <div>
-                                <img src="img/asad.jpg" width="40px" height="40px" alt="">
-                                <div>
-                                    <h4>Md. Asaduzzaman Nur</h4>
-                                    <small>CEO Excerpt</small>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/asad.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Asaduzzaman</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
                                 </div>
+
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="far fa-comment-dots"></i>
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/asad.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Asaduzzaman</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="far fa-comment-dots"></i>
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+
                             </div>
 
-                            <div>
-                                <i class="fas fa-user-circle"></i>
-                                <i class="fas fa-comment"></i>
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div>
-                                <img src="img/asad.jpg" width="40px" height="40px" alt="">
-                                <div>
-                                    <h4>Md. Asaduzzaman Nur</h4>
-                                    <small>CEO Excerpt</small>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/asad.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Asaduzzaman</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
                                 </div>
+
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="far fa-comment-dots"></i>
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+
                             </div>
-    
-                            <div>
-                                <i class="fas fa-user-circle"></i>
-                                <i class="fas fa-comment"></i>
-                                <i class="fas fa-phone"></i>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/asad.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Asaduzzaman</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="far fa-comment-dots"></i>
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+
                             </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="img/asad.jpg" width="40px" height="40px" alt="">
+                                    <div>
+                                        <h4>Asaduzzaman</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+
+                                <div class="contact">
+                                    <i class="fas fa-user-circle"></i>
+                                    <i class="far fa-comment-dots"></i>
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+
+                            </div>
+
                         </div>
-                    </div> 
-                    
-                </div>
 
-            </div>
+                    </div>
+
+                </div>
 
         </main>
 
